@@ -49,6 +49,7 @@ header {
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
+    cursor: default;
 }
 
 .navbar .links {
@@ -190,6 +191,35 @@ section#start {
 #start h1 {
     padding: 20px;
     font-size: 5rem;
+}
+
+/* Career Page */
+section#career_header {
+    height: calc(100vh - 60px);
+    background-image: url("images/construction_stock2.jpg");
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#career_header .container {
+    display: flexbox;
+    align-items: center;
+}
+
+#career_header .container .title {
+    font-size: 5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#career_header .container .company_logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
