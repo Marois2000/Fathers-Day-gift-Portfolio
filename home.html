@@ -17,10 +17,10 @@
   <body>
     <header>
       <div class="navbar">
-        <div class="logo"><a href="">Michael Marois</a></div>
+        <div class="logo"><h1>Michael Marois</h1></div>
         <ul class="links">
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="">Career</a></li>
           <li><a href="">Hobbies</a></li>
         </ul>
@@ -31,8 +31,8 @@
         </div>
 
         <div class="dropdown_menu">
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="">Career</a></li>
           <li><a href="">Hobbies</a></li>
           <li><a href="" class="action_btn">Contact Me</a></li>
@@ -47,23 +47,24 @@
       </section>
 
       <section id="about">
-        
+        <div class="description">
+          <h1>Hard Worker, Son, Brother, Father</h1>
+          <p>
+            Welcome to Michael Marois' personal portfolio website! With a
+            lifelong passion for construction and over 33 years of experience,
+            Michael has established himself as a distinguished construction
+            supervisor. From his early days assisting his father on home
+            projects to his current role at Harvey Construction, Michael's
+            expertise and industry relationships have made him a trusted name in
+            New England. Beyond his professional achievements, he is also a
+            loving father, devoted son, and the life of any party. Explore
+            Michael's portfolio to witness his exceptional work and the passion
+            he brings to every project.
+          </p>
+        </div>
       </section>
     </main>
 
-    <script>
-      const toggleBtn = document.querySelector(".toggle_btn");
-      const toggleBtnIcon = document.querySelector(".toggle_btn i");
-      const dropDownMenu = document.querySelector(".dropdown_menu");
-
-      toggleBtn.onclick = function () {
-        dropDownMenu.classList.toggle("open");
-        const isOpen = dropDownMenu.classList.contains("open");
-
-        toggleBtnIcon.classList = isOpen
-          ? "fa-solid fa-xmark"
-          : "fa-solid fa-bars";
-      };
-    </script>
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>

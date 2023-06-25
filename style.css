@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+:root {
+    --blue: #2417d4
+}
+
 body {
     height: 100vh;
     background-color: black;
@@ -16,14 +20,14 @@ header li {
     list-style: none;
 }
 
-header li a, header a {
+header li a, a {
     text-decoration: none;
     color: white;
     font-size: 1rem;
 }
 
-header li a:hover, header a:hover {
-    color: blue;
+header li a:hover,  header a:hover{
+    color: var(--blue);
 }
 
 header {
@@ -41,9 +45,10 @@ header {
     justify-content: space-between;
 }
 
-.navbar .logo a {
+.navbar .logo h1 {
     font-size: 1.5rem;
     font-weight: bold;
+    color: white;
 }
 
 .navbar .links {
@@ -59,7 +64,7 @@ header {
 }
 
 .action_btn {
-    background-color: blue;
+    background-color: var(--blue);
     color: white;
     padding: 0.5rem 1rem;
     border: none;
@@ -123,14 +128,7 @@ section#hero {
     color: white;
     background-image: url("images/dad_with_chicks.jpg");
     background-repeat: no-repeat;
-    background-position: calc(100vh - 60px);
-}
-
-/* about section */
-section#about {
-    height: 100vh;
-    display: flex;
-    background-image: linear-gradient(180deg, black, rgb(96, 96, 233));
+    background-position: calc(50vw - 60px);
 }
 
 #hero h1 {
@@ -141,6 +139,59 @@ section#about {
 #hero h2, #hero h1 {
     padding-left: 5rem;
 }
+
+/* about section */
+section#about {
+    height: 60vh;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(180deg, black, var(--blue));
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#about .description {
+    display: flexbox;
+    padding-left: 6vw;
+    padding-right: 6vw;
+}
+
+#about .description h1 {
+    margin: 3rem;
+    font-size: 4rem;
+}
+
+
+/* ABOUT PAGE */
+section#start {
+    height: calc(150vh - 60px);
+    display: flex;
+    color: white;
+    font-size: 1.75rem;
+}
+
+#start .wrapper {
+    margin: 100px auto;
+    width: 65%;
+    padding: 8px;
+}
+
+#start .about_section {
+    text-align: left;
+}
+
+#start .wrapper img {
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+#start h1 {
+    padding: 20px;
+    font-size: 5rem;
+}
+
 
 @media(max-width: 992px) {
     .navbar .links,
@@ -171,6 +222,34 @@ section#about {
     .dropdown_menu {
         left: 2rem;
         width: unset;
+    }
+
+    #about .description {
+        padding: 2rem;
+        font-size: 1rem;
+    }
+
+    #about .description h1 {
+        margin: 1rem;
+        font-size: 2rem;
+    }
+
+    #start .wrapper {
+        width: 100%;
+        margin: 50px;
+    }
+
+    #start p {
+        text-align: center;
+    }
+
+    #start img {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    #start h1 {
+        font-size: 4rem;
     }
 }
  
