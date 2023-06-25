@@ -241,6 +241,7 @@ section#start {
 
     #start p {
         text-align: center;
+        font-size: 1rem;
     }
 
     #start img {
