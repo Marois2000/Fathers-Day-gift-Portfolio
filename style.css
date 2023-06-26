@@ -354,13 +354,16 @@ section#career_header {
         text-align: center;
     }
 
+    .fields h2, .fields a{
+        font-size: 0.75rem;
+    }
 
     .contact_title {
-        font-size: 1rem;
+        font-size: 0.75rem;
     }
 
     .thank_you {
-        font-size: 0.75rem;
+        font-size: 0.5rem;
     }
 }
  
