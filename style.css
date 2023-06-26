@@ -155,8 +155,8 @@ section#about {
 
 #about .description {
     display: flexbox;
-    padding-left: 6vw;
-    padding-right: 6vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
 
 #about .description h1 {
@@ -170,7 +170,7 @@ section#start {
     height: calc(150vh - 60px);
     display: flex;
     color: white;
-    font-size: 1.75rem;
+    font-size: 1.75rem; 
 }
 
 #start .wrapper {
@@ -190,7 +190,7 @@ section#start {
 
 #start h1 {
     padding: 20px;
-    font-size: 5rem;
+    font-size: 4.5rem;
 }
 
 /* Career Page */
@@ -222,6 +222,50 @@ section#career_header {
     align-items: center;
 }
 
+/* Contact Page */
+.contact_title {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 4rem;
+    font-size: 2.5rem;
+}
+
+.contact_container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_container img {
+    border-radius: 50%;
+    border-color: var(--blue);
+    border-width: 5px;
+    border-style: solid;
+    aspect-ratio: 1/1;
+    width: 20rem;
+}
+
+.fields h2 {
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.fields {
+    padding: 40px;
+}
+
+.thank_you {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    font-size: 1.5rem;
+}
+
 
 @media(max-width: 992px) {
     .navbar .links,
@@ -245,6 +289,27 @@ section#career_header {
 
     #hero h2, #hero h1 {
         padding: 0;
+    }
+
+    .contact_title {
+        font-size: 1.5rem;
+    }
+
+    .thank_you {
+        font-size: 1rem;
+    }
+
+    .fields h2 {
+        font-size: 1rem;
+    }
+
+    .contact_container img {
+        border-radius: 50%;
+        border-color: var(--blue);
+        border-width: 5px;
+        border-style: solid;
+        aspect-ratio: 1/1;
+        width: 15rem;
     }
 }
 
@@ -280,7 +345,22 @@ section#career_header {
     }
 
     #start h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .contact_container {
+        display: grid;
+        text-align: center;
+    }
+
+
+    .contact_title {
+        font-size: 1rem;
+    }
+
+    .thank_you {
+        font-size: 0.75rem;
     }
 }
  
