@@ -167,7 +167,6 @@ section#about {
 
 /* ABOUT PAGE */
 section#start {
-    height: calc(150vh - 60px);
     display: flex;
     color: white;
     font-size: 1.75rem; 
@@ -175,7 +174,7 @@ section#start {
 
 #start .wrapper {
     margin: 100px auto;
-    width: 65%;
+    width: 70%;
     padding: 8px;
 }
 
@@ -222,6 +221,37 @@ section#career_header {
     align-items: center;
 }
 
+section#harvey {
+    display: flex;
+    color: white;
+    font-size: 1.75rem; 
+}
+
+#harvey .wrapper {
+    margin: 50px auto;
+    width: 70%;
+    padding: 8px;
+}
+
+#harvey .about_section {
+    text-align: left;
+}
+
+#harvey .wrapper img {
+    float: right;
+    padding: 0 10px 0 0;
+}
+
+#harvey h1 {
+    padding: 20px;
+    font-size: 4.5rem;
+}
+
+#harvey .harvey_title {
+    display: flex;
+    justify-content: end;
+}
+
 /* Contact Page */
 .contact_title {
     color: white;
@@ -265,6 +295,8 @@ section#career_header {
     margin: 100px;
     font-size: 1.5rem;
 }
+
+
 
 
 @media(max-width: 992px) {
@@ -347,6 +379,62 @@ section#career_header {
     #start h1 {
         font-size: 3rem;
         text-align: center;
+    }
+
+    #harvey .wrapper {
+        width: 100%;
+        margin: 50px;
+    }
+
+    #harvey p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    #harvey img {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    #harvey .harvey_title {
+        justify-content: center;
+    }
+
+    #harvey h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    section#career_header {
+        height: calc(100vh - 60px);
+        background-image: url("images/construction_stock2.jpg");
+        background-position: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    #career_header .container {
+        display: flexbox;
+        align-items: center;
+    }
+    
+    #career_header .container .title {
+        font-size: 3rem;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 15px;
+        text-align: center;
+    }
+    
+    #career_header .container .company_logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #career_header .container .company_logos img{
+        width: 200px;
     }
 
     .contact_container {
