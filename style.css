@@ -166,28 +166,28 @@ section#about {
 
 
 /* ABOUT PAGE */
-section#start {
+section#left_pic {
     display: flex;
     color: white;
     font-size: 1.75rem; 
 }
 
-#start .wrapper {
+#left_pic .wrapper {
     margin: 100px auto;
     width: 70%;
     padding: 8px;
 }
 
-#start .about_section {
+#left_pic .about_section {
     text-align: left;
 }
 
-#start .wrapper img {
+#left_pic .wrapper img {
     float: left;
     padding: 0 10px 0 0;
 }
 
-#start h1 {
+#left_pic h1 {
     padding: 20px;
     font-size: 4.5rem;
 }
@@ -221,33 +221,33 @@ section#career_header {
     align-items: center;
 }
 
-section#harvey {
+section#right_pic {
     display: flex;
     color: white;
     font-size: 1.75rem; 
 }
 
-#harvey .wrapper {
+#right_pic .wrapper {
     margin: 50px auto;
     width: 70%;
     padding: 8px;
 }
 
-#harvey .about_section {
+#right_pic .about_section {
     text-align: left;
 }
 
-#harvey .wrapper img {
+#right_pic .wrapper img {
     float: right;
     padding: 0 10px 0 0;
 }
 
-#harvey h1 {
+#right_pic h1 {
     padding: 20px;
     font-size: 4.5rem;
 }
 
-#harvey .harvey_title {
+#right_pic .harvey_title {
     display: flex;
     justify-content: end;
 }
@@ -361,46 +361,46 @@ section#harvey {
         font-size: 2rem;
     }
 
-    #start .wrapper {
+    #left_pic .wrapper {
         width: 100%;
         margin: 50px;
     }
 
-    #start p {
+    #left_pic p {
         text-align: center;
         font-size: 1rem;
     }
 
-    #start img {
+    #left_pic img {
         width: 100%;
         margin: 0 0 20px 0;
     }
 
-    #start h1 {
+    #left_pic h1 {
         font-size: 3rem;
         text-align: center;
     }
 
-    #harvey .wrapper {
+    #right_pic .wrapper {
         width: 100%;
         margin: 50px;
     }
 
-    #harvey p {
+    #right_pic p {
         text-align: center;
         font-size: 1rem;
     }
 
-    #harvey img {
+    #right_pic img {
         width: 100%;
         margin: 0 0 20px 0;
     }
 
-    #harvey .harvey_title {
+    #right_pic .harvey_title {
         justify-content: center;
     }
 
-    #harvey h1 {
+    #right_pic h1 {
         font-size: 3rem;
         text-align: center;
     }
